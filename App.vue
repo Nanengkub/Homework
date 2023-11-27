@@ -17,7 +17,7 @@ export default {
       lastname:"ธุวสินธุ์",
       age:17,
       address:"<i>จังหวัดฉะเชิงเทรา</i>",
-      picture:"https://scontent.fbkk5-7.fna.fbcdn.net/v/t39.30808-6/318087905_2347445945423816_6541491558505673002_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0aEOhQoBdp4AX8UkZiz&_nc_ht=scontent.fbkk5-7.fna&oh=00_AfBRnAG4MogvnOdJIC6rEenF78MKX--RiMJEL6h6sPo4bQ&oe=655BB776",
+      picture:"https://scontent.fbkk12-5.fna.fbcdn.net/v/t39.30808-6/318087905_2347445945423816_6541491558505673002_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGmvzR2EsytYb7_qcEn4aSvKpyV1684XlYqnJXXrzheVgTPSDAj8Bi_V1Nzp6UdX9sKbXyOVWyEuitdzIt0MVCA&_nc_ohc=ifQ_KNDgxWsAX8z0iJ5&_nc_ht=scontent.fbkk12-5.fna&oh=00_AfAZUUMR5ip7YnZQtc2hZ79agIgABrwJkftHcqWnGu98DQ&oe=65698F36",
       social:"https://www.facebook.com/NapaphaTh",
       picture1:"https://cdn.pixabay.com/photo/2021/06/15/12/51/facebook-6338509_1280.png"
     }
