@@ -1,17 +1,17 @@
 <template>
   <section>
-    <img v-bind:src="picture" width="400" height="400">
+    <img v-bind:src="picture" width="200" height="200">
     <h1>ชื่อผู้สมัครงาน : {{fullname()}}</h1>
     <h1>อายุ : {{age}} ปี</h1>
     <p>ที่อยู่ : <span v-html="address"></span></p>
     <h2><img v-bind:src="picture1" width="30" height="25"> : <a :href="social" target="_blank">Isnan Napapha</a></h2>
     <p>งานอดิเรก : </p>
-    <ul>
+    <l>
          <li>{{ hobby[0] }}</li>
          <li>{{ hobby[1] }}</li>
          <li>{{ hobby[2] }}</li>
          <li>{{ hobby[3] }}</li>
-    </ul>
+    </l>
     <p>ข้อมูลพื้นฐาน : </p>
     <ul>
          <li>เพศ : {{ general.gender }}</li>
@@ -50,7 +50,8 @@ export default {
       hobby:["ดูหนัง","ฟังเพลง","อ่านนิยาย","เล่นกีฬา"],
       general:{gender:"หญิง",weight:39,height:148,status:false},
       theader:["ชื่อ-นามสกุล","งานอดิเรก","อายุ","น้ำหนัก","ส่วนสูง"],
-      tdata:[{"col1":"ณปภา ธุวสินธุ์","col2":"ทำขนม","col3":"17","col4":"39","col5":"160"},{"col1":"ติณณภพ อัครเดชา","col2":"อ่านหนังสือ","col3":"26","col4":"58","col5":"181"}]
+      tdata:[{"col1":"ณปภา ธุวสินธุ์","col2":"ทำขนม","col3":"17","col4":"39","col5":"148"},{"col1":"ติณณภพ อัครเดชา","col2":"อ่านหนังสือ","col3":"26","col4":"58","col5":"181"}],
+      my:"ศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 5/2 โรงเรียนเบญจมาชรังสฤษฎิ์ ตอนนี้ชื่นชอบ NCT Dream เมนพี่แจมินค่ะะ"
     }
   },
   methods:{
@@ -58,7 +59,7 @@ export default {
       return this.firstname + " "+ this.lastname
     },
     showData(){
-       alert(this.firstname)
+       alert(this.firstname + " " + this.my)
     },
     increment(){
       this.age++
